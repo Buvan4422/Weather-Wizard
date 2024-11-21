@@ -3,7 +3,7 @@ const searchButton = document.querySelector('.search-btn');
 const currentWeatherDiv = document.querySelector('.current-weather');
 const weatherCardsDiv = document.querySelector('.weather-cards');
 
-const API_KEY = '97a184426a975734719cb8c34371ffa1';
+const API_KEY = '';
 
 const createWeatherCard = (cityName, weatherItem, index) => {
   if (index === 0) {
