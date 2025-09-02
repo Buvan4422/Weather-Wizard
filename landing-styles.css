@@ -62,14 +62,16 @@ h1 {
 .weather-data {
   width: 100%;
 }
-.weather-data .current-weather {
-  color: #fff;
-  background: #5372f0;
-  border-radius: 10px;
-  padding: 40px 70px 40px 20px;
-  display: flex;
-  justify-content: space-between;
+.weather-data {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.08); /* subtle transparent layer */
+  backdrop-filter: blur(12px);           /* glossy blur */
+  -webkit-backdrop-filter: blur(12px);   /* Safari support */
+  border-radius: 16px;                   /* smooth edges */
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25); /* depth */
+  padding: 20px;
 }
+
 .current-weather h2 {
   font-weight: 700;
   font-size: 1.7rem;
@@ -160,3 +162,4 @@ h1 {
     font-size: 1.35rem;
   }
 }
+
