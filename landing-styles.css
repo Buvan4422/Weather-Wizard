@@ -6,7 +6,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background-image: url('https://source.unsplash.com/1600x900/?weather');
+  ## background-image: url('https://source.unsplash.com/1600x900/?weather');
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
 }
 h1 {
   font-size: 1.75rem;
@@ -162,5 +163,6 @@ h1 {
     font-size: 1.35rem;
   }
 }
+
 
 
