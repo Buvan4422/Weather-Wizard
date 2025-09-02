@@ -5,9 +5,9 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-body {
-  ## background-image: url('https://source.unsplash.com/1600x900/?weather');
-  background: linear-gradient(135deg, #1e3c72, #2a5298);
+body
+{
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
 }
 h1 {
   font-size: 1.75rem;
@@ -163,6 +163,7 @@ h1 {
     font-size: 1.35rem;
   }
 }
+
 
 
 
